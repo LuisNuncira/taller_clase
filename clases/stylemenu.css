@@ -1,0 +1,67 @@
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background: linear-gradient(135deg, #6a11cb, #2575fc);
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+color: #fff;
+}
+
+/* Contenedor del menú */
+.menu {
+background: rgba(255, 255, 255, 0.1);
+padding: 40px;
+border-radius: 15px;
+backdrop-filter: blur(10px);
+box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+text-align: center;
+border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Título del menú */
+.menu h1 {
+font-size: 2.5rem;
+margin-bottom: 30px;
+color: #000000;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Lista de enlaces */
+.menu ul {
+list-style-type: none;
+padding: 0;
+}
+
+.menu ul li {
+margin: 20px 0;
+}
+
+/* Estilo de los botones */
+.menu ul li a {
+text-decoration: none;
+color: #0b0b0b;
+background: rgba(14, 189, 232, 0.24);
+padding: 15px 30px;
+border-radius: 50px;
+display: inline-block;
+width: 200px;
+transition: all 0.3s ease;
+font-size: 1.1rem;
+border: 1px solid rgba(255, 255, 255, 0.2);
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Efecto hover en los botones */
+.menu ul li a:hover {
+background: rgba(13, 170, 209, 0.24);
+transform: translateY(-5px);
+box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Efecto activo al hacer clic */
+.menu ul li a:active {
+transform: translateY(0);
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
