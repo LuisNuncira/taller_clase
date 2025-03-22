@@ -3,18 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../clases/style4.css">
     <title>Operaciones con Conjuntos</title>
 </head>
 <body>
-    <h1>Operaciones con Conjuntos</h1>
-    <form action="ejercicio4.php" method="post">
-        <label for="conjuntoA">Conjunto A (ingrese números separados por comas):</label>
-        <input type="text" id="conjuntoA" name="conjuntoA" required>
-        <br><br>
-        <label for="conjuntoB">Conjunto B (ingrese números separados por comas):</label>
-        <input type="text" id="conjuntoB" name="conjuntoB" required>
-        <br><br>
-        <input type="submit" value="Calcular">
-    </form>
+    <div class="container">
+        <h1>Calculadora de Fibonacci y Factorial</h1>
+        <form action="ejercicio2.php" method="post">
+            <label for="numero">Ingrese un número:</label>
+            <input type="number" id="numero" name="numero" required>
+            <label for="operacion">Seleccione la operación:</label>
+            <select id="operacion" name="operacion" required>
+                <option value="fibonacci">Sucesión de Fibonacci</option>
+                <option value="factorial">Factorial</option>
+            </select>
+            <button type="submit">Calcular</button>
+        </form>
+    </div>
 </body>
 </html>

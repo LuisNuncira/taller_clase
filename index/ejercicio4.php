@@ -24,7 +24,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     $diferenciaBA = array_diff($conjuntoB, $conjuntoA);
 
-    // Mostrar resultados
     echo "<h2>Resultados:</h2>";
     echo "<strong>Conjunto A:</strong> " . implode(', ', $conjuntoA) . "<br>";
     echo "<strong>Conjunto B:</strong> " . implode(', ', $conjuntoB) . "<br><br>";
